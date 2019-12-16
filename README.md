@@ -24,8 +24,8 @@ output: A first line with the total number of vehicles X required, followed by X
 Since this is an NP-Hard problem, the purpose is not to find the optimal solution but the best possible. Hence, the four following heuristics are designed and implemented in this project:
 
 * Constructive heuristic of savings based on the Clark-Wright method.
-* Another greedy constructive heuristic - closest neighbour. 
-* Constructive heuristic of cluster-first, route-second. Clusters build through sweep algorithm, TSP solved with closest neighbour heuristic.
+* Another greedy constructive heuristic - closest neighbor. 
+* Constructive heuristic of cluster-first, route-second. Clusters build through sweep algorithm, TSP solved with closest neighbor heuristic.
 * An additional constructive heuristic of cluster-first, route-second. Clusters are build with savings algorithm, TSP solved with 2-OPT.  
 
 ## Setup

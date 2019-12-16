@@ -27,11 +27,8 @@ To run this project, choose a possible heuristic {savings, goloso, sweep, 2-opt,
 $ make clean && make
 $ cat data/nameOfSample.vrp | ./build/vrp --algo HEURISTIC
 ```
-output:
-
 For help:
-
-
+```
 $ ./build/vrp --help
 
 ```

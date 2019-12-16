@@ -21,6 +21,13 @@ input: the format required by TSPLIB95. Samples can be selected from the data fi
 
 output: A first line with the total number of vehicles X required, followed by X lines with the route followed for each vehicle Xi, exhibiting the points in the order they should be visited. And a last line with the sum of costs of the presented routes. 
 
+Since this is an NP-Hard problem, the purpose is not to find the optimal solution but the best possible. Hence, the four following heuristics are designed and implemented in this project:
+
+* Constructive heuristic of savings based on the Clark-Wright method.
+* Another greedy constructive heuristic - closest neighbour. 
+* Constructive heuristic of cluster-first, route-second. Clusters build through sweep algorithm, TSP solved with closest neighbour heuristic.
+* An additional constructive heuristic of cluster-first, route-second. Clusters are build with savings algorithm, TSP solved with 2-OPT.  
+
 ## Setup
 To run this project, choose a possible heuristic {savings, goloso, sweep, 2-opt}, samples are to be selected from files inside the data file (A, B or X) and have the specific input required for this assignement.
 

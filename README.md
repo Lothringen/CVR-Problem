@@ -18,6 +18,7 @@ The problem consists in finding a group of minimum cost routes, that meet the fo
 * The sum of the demands of the clients visited by one vehicle cannot exceed its capacity C. 
 
 input: the format required by TSPLIB95. Samples can be selected from the data file.
+
 output: A first line with the total number of vehicles X required, followed by X lines with the route followed for each vehicle Xi, exhibiting the points in the order they should be visited. And a last line with the sum of costs of the presented routes. 
 
 ## Setup

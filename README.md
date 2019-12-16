@@ -22,7 +22,7 @@ input: the format required by TSPLIB95. Samples can be selected from the data fi
 output: A first line with the total number of vehicles X required, followed by X lines with the route followed for each vehicle Xi, exhibiting the points in the order they should be visited. And a last line with the sum of costs of the presented routes. 
 
 ## Setup
-To run this project, choose a possible heuristic {savings, goloso, sweep, 2-opt}, samples are to be selected from files inside the data file (A, B or X) and have a specific input required for this assignement.
+To run this project, choose a possible heuristic {savings, goloso, sweep, 2-opt}, samples are to be selected from files inside the data file (A, B or X) and have the specific input required for this assignement.
 
 ```
 $ make clean && make
